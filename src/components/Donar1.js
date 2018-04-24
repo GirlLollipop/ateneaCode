@@ -8,6 +8,23 @@ import Donar from '../components/images/donar1.jpg';
 
 
 class Donar1 extends Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            users: this.props.users,
+            pointBalance: this.props.pointBalance,
+        }
+    }
+
+    handleChangeInput = (event, id) => {
+        // console.log(event, id);
+        if (event.target.id === "user") {
+            this.props.handleChangeInputUser(event.target.value);
+        } else if (event.target.id === "pass") {
+            this.props.handleChangeInputPass(event.target.value);
+        }
+    }
+
     render() {
         return (
             <div>
@@ -16,13 +33,13 @@ class Donar1 extends Component {
                 <h3 className="top font-header">Ingresa tu número de cliente</h3>
             </div>
                 <div className="margin">
-                <input type="text" className="form-control field" placeholder="Número de cliente Banamex" aria-label="Username" aria-describedby="basic-addon1" />
+                    <input id="user" onChange={this.handleChangeInput} type="text" className="form-control field" placeholder="Número de cliente Banamex" aria-label="Username" aria-describedby="basic-addon1" />
                 </div>
                 <div >
                     <h3 className="top font-header">Ingresa tu NIP</h3>
                     </div>
                 <div className="margin">
-                    <input type="password" className="form-control field" placeholder="NIP" aria-label="Username" aria-describedby="basic-addon1" />
+                    <input id="pass" onChange={this.handleChangeInput} type="password" className="form-control field" placeholder="NIP" aria-label="Username" aria-describedby="basic-addon1" />
                 </div>
                 <div>
                     <Button bsStyle="" className="top color-btn color-btn-purple" bsSize="large" ><Link className="twhite color-link" to="/Donar2">Siguiente</Link></Button>
