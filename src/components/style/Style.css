@@ -1,0 +1,73 @@
+.back-body{
+    background-color: #F9F9F9;
+}
+
+.font-header {
+font-family: 'Muli', sans-serif;
+}
+
+.font-body{
+font-family: 'Sintony', sans-serif;
+}
+
+.back-splash{
+background-color: #65a689;
+width: 100%;
+height: 100vh;
+}
+
+.back-nav {
+    background-color: #65a689;
+    height: 10vh;
+}
+
+.color-btn {
+   color: #c2f9e1;
+}
+
+.color-link {
+   color:white;
+}
+
+.logo-nav {
+    margin-top: 2vh;
+}
+
+.logo-splash {
+    margin-top: 40vh;
+    width: 80%;
+}
+
+.carrusel {
+    margin-top: 5%;
+}
+
+.left {
+    margin-right: 40%;
+}
+
+.top {
+    margin-top: 5vh;
+}
+
+.margin-text{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.margin-bottom{
+    margin-bottom: 5%;
+}
+
+.img-icon {
+    width: 100px;
+    height: 100px;
+    margin: 2%;
+    margin-top: 20%;
+    border-radius: 5%;
+}
+
+.card {
+    margin-left: 10%;
+    margin-right: 10%;
+}
