@@ -1,4 +1,4 @@
-![ateneCode-Logo3.png](ateneCode-Logo3.png)
+![ateneCode-Logo3.png](src/components/images/ateneCode-Logo3.png)
 
 ## El Reto
 Somos una startup en busca de la siguiente gran aplicación móvil. En el cual se utilizarán las APIs públicas de Citibanamex.
