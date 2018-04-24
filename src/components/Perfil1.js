@@ -16,20 +16,20 @@ class Perfil1 extends Component {
                         <Jumbotron>
                             <h1 className="font-header">¡BIENVENIDA!</h1>
                             <p className="font-body">Te has inscrito a tu primer curso de programación</p>
-                            <p className="font-body"> CREAR SITIOS CON HTML5 </p>
+                            <p className="font-body bold"> CREAR SITIOS CON HTML5 </p>
                             <p className="font-body">Al concluir tu curso podrás obtener tu diploma </p>
-                             <Button bsStyle="primary">INGRESAR A CURSO</Button>                      
+                            <Button className="color-btn color-btn-purple top" bsSize="large">Ingresar a curso</Button>                      
             
                         </Jumbotron>;
                         </div>
-                    <div className="card">
-                        <Button bsStyle="primary " bsSize="large" block><p className="font-header">VER MIS CURSOS</p></Button>  
+                    <div className="margin">
+                        <Button className="color-btn-purple" bsStyle="" bsSize="large" block><p className="font-header ">VER MIS CURSOS</p></Button>  
                     </div>
-                    <div className="card">
-                        <Button bsStyle="primary top" bsSize="large" block><p className="font-header">PREFERENCIAS</p></Button>
+                    <div className="margin">
+                        <Button className="color-btn-purple" bsStyle=" top" bsSize="large" block><p className="font-header">PREFERENCIAS</p></Button>
                     </div>  
                     <div>
-                        <Button bsStyle="success" className="top color-btn"><Link className="twhite color-link" to="/Red">SIGUIENTE</Link></Button>
+                        <Button bsStyle="" className="top  color-btn-purple"><Link className="twhite color-link" to="/Red">Siguiente</Link></Button>
                         </div>
             
                 </div>

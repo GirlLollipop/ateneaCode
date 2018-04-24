@@ -10,6 +10,10 @@ font-family: 'Muli', sans-serif;
 font-family: 'Sintony', sans-serif;
 }
 
+.bold{
+    font-weight: bolder;
+}
+
 .back-splash{
 background-color: #65a689;
 width: 100%;
@@ -21,12 +25,16 @@ height: 100vh;
     height: 10vh;
 }
 
-.color-btn {
-   color: #c2f9e1;
+.color-btn-green {
+   background-color: #c2f9e1;
+}
+
+.color-btn-purple {
+    background-color: #c0c0c0;
 }
 
 .color-link {
-   color:white;
+   color: black;
 }
 
 .logo-nav {
@@ -55,6 +63,16 @@ height: 100vh;
     margin-right: 2%;
 }
 
+.margin {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.input-size{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 315px;
+}
 .margin-bottom{
     margin-bottom: 5%;
 }
@@ -70,4 +88,21 @@ height: 100vh;
 .card {
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.points {
+    font-size: 5em;
+}
+
+#formControlsTextarea {
+    margin-left: 10%;
+    width: 80%;
+    height: 300px;
+    font-family: 'Sintony', sans-serif;
+    font-size: 1.5em;
+}
+
+pic{
+    width: 100%;
+    height: 30%;
 }

@@ -2,6 +2,7 @@ import React, { Component } from 'react'; //Este import va en todas las vistas, 
 import { } from 'react-bootstrap';
 import './style/Style.css';
 import LogoNav from '../components/images/logo-nav.png';
+import { Link } from "react-router-dom";
 
 class NavMenu extends Component {
     render() {
@@ -9,7 +10,7 @@ class NavMenu extends Component {
             <div className="Menu">
                 <div className="">
                     <nav className="padd navbar-dark back-nav">
-                        <img src={LogoNav} className="left logo-nav" alt="logo" />
+                        <Link className="twhite color-link" to="/Home"><img src={LogoNav} className="left logo-nav" alt="logo" /></Link>
                     </nav>
                 </div>
             </div>

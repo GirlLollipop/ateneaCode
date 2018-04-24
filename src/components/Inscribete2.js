@@ -15,12 +15,12 @@ class Inscribete2 extends Component {
                     < NavMenu />
                     <h3 className="top font-header">¿Cuáles son tus razones para tomar el curso?</h3>
                 </div>
-                <FormGroup controlId="formControlsTextarea">
+                <FormGroup controlId="formControlsTextarea" >
                     <ControlLabel></ControlLabel>
                     <FormControl componentClass="textarea" placeholder="" />
                 </FormGroup>
                 <div>
-                    <Button bsStyle="success" className="top color-btn"><Link className="twhite color-link" to="/Inscribete3">LEER TÉRMINOS Y CONDICIONES</Link></Button>
+                        <Button bsStyle="" className="top color-btn color-btn-purple" bsSize="large"><Link className="twhite color-link" to="/Inscribete3">LEER TÉRMINOS Y CONDICIONES</Link></Button>
                 </div>
             </div>
             </div>

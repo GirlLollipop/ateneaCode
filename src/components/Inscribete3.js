@@ -26,7 +26,7 @@ class Inscribete3 extends Component {
                         Acepto términos y condiciones
     </Checkbox>                   
                     <div>
-                        <Button bsStyle="success" className="top color-btn margin-bottom"><Link className="twhite color-link" to="/Perfil1">CREAR CUENTA</Link></Button>
+                        <Button bsStyle="" className="top color-btn-purple margin-bottom" bsSize="large"><Link className="twhite color-link" to="/Perfil1">Crear cuenta</Link></Button>
                     </div>
                 </div>
             </div>

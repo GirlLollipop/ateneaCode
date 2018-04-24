@@ -20,6 +20,7 @@ import Inscribete3 from './components/Inscribete3.js';
 import Perfil1 from './components/Perfil1.js';
 import Red from './components/Red.js';
 
+
 class App extends Component {
   render() {
     return (
@@ -44,6 +45,7 @@ class App extends Component {
           <Route component={Inscribete3} path="/Inscribete3" />
           <Route component={Perfil1} path="/Perfil1" />
           <Route component={Red} path="/Red" />
+          
         </Switch>
       </div>
     );

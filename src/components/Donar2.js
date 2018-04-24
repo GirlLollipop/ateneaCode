@@ -15,16 +15,16 @@ class Donar2 extends Component {
                     <h3 className="top font-header">Tu saldo en puntos es de</h3>
                 </div>
                 <div>
-                    <h2 className="top font-header">1200</h2>
+                    <span className="top font-header points">1200</span>
                 </div>
                 <div>
                     <h3 className="top font-header">¿Cuántos puntos quieres donar?</h3>
                 </div>
-                <div>
-                    <input type="text" className="form-control field" placeholder="Contraseña" aria-label="Username" aria-describedby="basic-addon1" />
+                <div class="input-size">
+                    <input type="text" className="form-control field " placeholder="Puntos a donar" aria-label="Username" aria-describedby="basic-addon1" />
                 </div>
                 <div>
-                    <Button bsStyle="success" className="top"><Link className="twhite color-link" to="/Donar3">SIGUIENTE</Link></Button>
+                    <Button bsStyle="" className="top color-btn color-btn-purple" bsSize="large"><Link className="twhite color-link" to="/Donar3">Siguiente</Link></Button>
                 </div>
 
             </div>
