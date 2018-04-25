@@ -1,4 +1,4 @@
-![ateneCode-Logo3.png](ateneCode-Logo3.png)
+![ateneCode-Logo3.png](src/components/images/ateneCode-Logo3.png)
 
 ## El Reto
 Somos una startup en busca de la siguiente gran aplicación móvil. En el cual se utilizarán las APIs públicas de Citibanamex.
@@ -21,7 +21,7 @@ Proponiendo la democratización del conocimiento y principalmente con el objetiv
 Crear una aplicación para acercar a las mujeres de bajos recursos a cursos tecnológicos, para  mejores oportunidades en su vida.
 
 #### FLUJO DE TRABAJO
-![design-thinking.jpg](design-thinking.jpg)
+![design-thinking.jpg](src/components/images/design-thinking.jpg)
 
 Se utilizo la metodologìa: Desing Thinking,
 
@@ -36,16 +36,16 @@ Se utilizo la metodologìa: Desing Thinking,
 * Desarrollar el código y maquetado de una Simple Page Application en React utilizando frameworks Bootstrap 4.0 entre otras herramientas, incluyendo el desarrollo de una base de datos de usuarios en Firebase y utilizando routing para el cambio de vistas
 
 #### WIREFRAME
-![wireframes.jpg](wireframes.jpg)
+![wireframes.jpg](src/components/images/wireframes.jpg)
 
 #### MAPA DE EMPATíA
-![EmpatyMap.jpg](EmpatyMap.jpg)
+![EmpatyMap.jpg](src/components/images/EmpatyMap.jpg)
 
 Utilizado para conocer las tareas, necesidades, motivaciones, emociones, influencias y painpoints de los usuarios.
 
 
 #### USER PERSONA
-![userPerson.jpg](userPerson.jpg)
+![userPerson.jpg](src/components/images/userPerson.jpg)
 
 Se tomo como usuario donante a una mujer de 27 años que tiene una carrera profesional terminada,Licenciada con buen ingreso mensual que le permite realizar compras adicionales a sus necesidades básicas
 
@@ -53,7 +53,7 @@ Se tomo como usuario estudiante a una mujer de 25 años que tiene un trabajo inf
 
 
 #### CUSTOMER JOURNEY MAP
-![journeymap.jpg](journeymap.jpg)
+![journeymap.jpg](src/components/images/journeymap.jpg)
 
 Elaborado para conocer los puntos donde nuestros usuarios podrìan encontrar dificultades para completar la tarea de ahorrar acción de ahorrar.
 
@@ -75,10 +75,10 @@ Al no haber una aplicación previa se tomaron en consideración los puntos que e
 
 
 ### BACKLOG
-![backlog.jpg](backlog.jpg)
+![backlog.jpg](src/components/images/backlog.jpg)
 
 ## CONCLUSIONES
-![ateneCode-Logo3.png](ateneCode-Logo3.png)
+![ateneCode-Logo3.png](src/components/images/ateneCode-Logo3.png)
 
 Atenea Code viene a cubrir las necesidades de un grupo que presenta una vulnerabilidad al ser un sector discriminizado por falta de recursos necesarios para solventar sus estudios
 
@@ -95,4 +95,4 @@ Estamos convencidas que Atenea Code es un producto escalable, redituable y que m
 * Elzbeth Blanco
 * Jessy Cuevas
 
-![expo.png](expo.png)
+![expo.png](src/components/images/expo.png)
